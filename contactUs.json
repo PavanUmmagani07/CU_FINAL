@@ -1,0 +1,20 @@
+{
+  "contactus": [
+    {
+      "id": "Ax7L123",
+      "firstName": "Pavan Kalyan",
+      "lastName": "Ummagani",
+      "email": "Pk1234@gmail.com",
+      "mobileNumber": "7679053234",
+      "comments": "i need a job in frontend role"
+    },
+    {
+      "id": "cd61",
+      "firstName": "pavan",
+      "lastName": "ummagani",
+      "email": "upk@gmail.com",
+      "mobileNumber": "4526789872654",
+      "comments": "i need a job in your company for front end role"
+    }
+  ]
+}
