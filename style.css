@@ -9,7 +9,6 @@ body{
 }
 
 /*NAVBAR*/
-
 .nav-items{
     color: #ffffff;
     font-weight: bold;
@@ -380,6 +379,11 @@ body{
     .icon{
         margin-left: 16px;
     }
+    .social-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 
 }
 
@@ -571,5 +575,9 @@ body{
     }
     .icon{
         margin-left: 16px;
+    }
+    .social-icons{
+        display: flex;
+        flex-direction: row;
     }
 }
