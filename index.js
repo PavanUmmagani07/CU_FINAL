@@ -132,13 +132,14 @@ function submitFormData(){
             body:JSON.stringify(formData)
         };
         let url = "http://localhost:3000/contactus";
-        fetch(url,options)
-        .then(function(response){
+        let responseObject = fetch(url,options)
+        responseObject.then(function(response){
             return response.json()
         })
         .then(function(jsonData){
             console.log(jsonData);
         })
+        console.log(responseObject)
 
     }else{
         checkboxErrorMsgEl.textContent="Tick the Checkbox to submit the data";
